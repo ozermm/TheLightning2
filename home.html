@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="./output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./home.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyRecipes</title>
+  <link rel="icon" href="./images/tablogo.jpg">
+</head>
+
+<body>
+
+</body>
+<div class="header">
+  <div class="topnav">
+    <nav id="main-logo">
+      <img src="./images/The LightningBabyPT2.png"recipe logo" />
+    </nav>
+  </div>
+  <div id="nav-container">
+    <nav id="main-nav">
+      <a href="#home">
+        <p class="nav-item">News
+      </a>
+      <a href="recipes.html">
+        <p class="nav-item">Events
+      </a></a>
+      <p class="nav-item">Contact</a>
+      <p class="nav-item">About Us</p>
+    </nav>
+  </div>
+</div>
+<div class="flex w-full">
+  <div class=" slideshow-container w-50">
+    <div class="mySlides  fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/Slideshow Croissant.jpeg">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/charcuterie board.jpeg">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/charcuterie board 2.jpeg">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <div class="w-50">
+    <div class="welcoming-text">
+      <p>Find Exciting Recipes Here:</p>
+    </div>
+
+    <div class="Border">
+      <hr style="height:3px; border-width:0 ;color:gray;">
+      <div class="flex recipe-cards overflow-x-scroll  gap-10 mx-10  mb-10">
+        <a class="flex flex-[0_0_33%] hover:bg-[#e6e6e6] transition-all hover:scale-105 hover:cursor-pointer rounded-md p-5 bg-[#fff] w-full mb-3 flex-col"
+          href="recipes.html#tiramisu-recipe">
+          <img class="self-center" src="images/LIPFILLERGONEWRONG.png" alt="Tiramisu" width="200" height="200">
+          <h3 class="self-center font-bold text-[18px]">Lip Filler Gone Wrong</h3>
+          <p class="w-[80%] text-center self-center">Ignite Junior’s lip filler BOTCHED, Kylie Jenner threatens lawsuit</p>
+        </a>
+        <a class="flex flex-[0_0_33%] hover:bg-[#e6e6e6] transition-all hover:scale-105 hover:cursor-pointer rounded-md p-5 bg-[#fff] w-full mb-3 flex-col"
+          href="recipes.html#lasagna-recipe">
+          <img class="self-center" src="images/Lasagna.jpeg" alt="Lasagna" width="200" height="200">
+          <h3 class="self-center font-bold text-[18px]">Lasagna</h3>
+          <p class="w-[80%] text-center self-center">Lasagna is an exciting option for restaurant chefs developing menus
+            and
+            home cooks alike because it is filling, somewhat simple to create and prepare, highly versatile, and stores
+            well. </p>
+        </a>
+
+        <a class="flex flex-[0_0_33%] hover:bg-[#e6e6e6] transition-all hover:scale-105 hover:cursor-pointer rounded-md p-5 bg-[#fff] w-full mb-3 flex-col"
+          href="recipes.html#magnolia-recipe">
+          <img class="self-center" src="images/Strawberry Pudding.jpg" alt="Magnolia" width="200" height="200">
+          <h3 class="self-center font-bold text-[18px]">Magnolia</h3>
+          <p class="w-[80%] text-center self-center"> Magnlolia is a fantastic option to serve visitors because it is
+            straightforward and a global favorite! </p>
+        </a>
+
+        <a class="flex flex-[0_0_33%] hover:bg-[#e6e6e6] transition-all hover:scale-105 hover:cursor-pointer rounded-md p-5 bg-[#fff] w-full mb-3 flex-col"
+          href="recipes.html#deviled-eggs-recipe">
+          <img class="self-center" src="images/Deviled Eggs.jpg" alt="Deviled Eggs" width="200" height="200">
+          <h3 class="self-center font-bold text-[18px]">Deviled Eggs</h3>
+          <p class="w-[80%] text-center self-center">Devild eggs are a great party appetizer becayse they are easy to
+            make
+            ahead of time and please almost everyone. They can also be easily customized with various seasonings and
+            toppings! </p>
+        </a>
+
+        <a class="flex flex-[0_0_33%] hover:bg-[#e6e6e6] transition-all hover:scale-105 hover:cursor-pointer rounded-md p-5 bg-[#fff] w-full mb-3 flex-col"
+          href="recipes.html#lentil-soup-recipe">
+          <img class="self-center" src="images/Lentil Soup.jpeg" alt="Lentil Soup" width="200" height="200">
+          <h3 class="self-center font-bold text-[18px]">Lentil Soup</h3>
+          <p class="w-[80%] text-center self-center">The feast, which was created by slaves in Carolina, is believed to
+            usher in a prosperous new year. And occasionally, a coin is used to prepare the dinner. Those who are lucky
+            enough to have the penny in their dish will also likely receive a visit to the dentist. </p>
+        </a>
+
+        <a class="flex flex-[0_0_33%] hover:bg-[#e6e6e6] transition-all hover:scale-105 hover:cursor-pointer rounded-md p-5 bg-[#fff] w-full mb-3 flex-col"
+          href="recipes.html#cookies-recipe">
+          <img class="self-center" src="images/Chocolate Chip Cookies.jpg" alt="Cookies" width="200" height="200">
+          <h3 class="self-center font-bold text-[18px]">Cookies</h3>
+          <p class="w-[80%] text-center self-center">Cookies are like a delicious, crunchy, chewy canvas that can be
+            painted
+            with almost anything. Just a few examples of the deliciously contrasted flavors and textures that can
+            satisfy
+            even the most particular sweet craving are chocolate, nuts, fruits, and grains. </p>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+
+</script>
