@@ -224,7 +224,51 @@ html,body{
   background: #000;
 }
 
-.recipe-cards::-webkit-scrollbar-track {
-  background: #FFF;
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
+
+.flex {
+  display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+
+.menu {
+  float: right;
+  width: 50%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.menu-item {  
+  margin-bottom: 10px;
+}
+
+
+.recipe-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  overflow: hidden;
+}
+
 
